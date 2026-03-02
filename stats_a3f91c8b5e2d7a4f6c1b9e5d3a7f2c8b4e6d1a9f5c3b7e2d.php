@@ -1,5 +1,6 @@
 <?php
-require_once(__DIR__ . '/../db_config.php');
+$_home = substr($_SERVER['DOCUMENT_ROOT'], 0, strpos($_SERVER['DOCUMENT_ROOT'], '/public_html'));
+require_once($_home . '/db_config.php');
 
 try {
     $pdo = new PDO(
