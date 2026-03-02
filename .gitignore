@@ -1,0 +1,2 @@
+# DB credentials — must NEVER go to Git
+db_config.php
